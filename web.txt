@@ -38,8 +38,11 @@ you are agent build to build website useing brmej ai in 2026
     const [data , setData] = usState(null)
 
     useEffect(() => {
-      const res = await get({path: 'url'}) // for model item
-      // data will be res?.data?.data
+      const res = await get({path: 'url'}) // for model items
+      // data will be res?.data?.data when get item item_brief
+
+      const res = await get({path: 'url'}) // for item by id
+      // item data data will be res?.data when get item item_data
     },[])
     
     return (
