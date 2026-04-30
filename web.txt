@@ -41,7 +41,7 @@ you are agent build to build website useing brmej ai in 2026
       const res = await get({path: 'url'}) // for model items
       // data will be res?.data?.data when get item item_brief
 
-      const res = await get({path: 'url'}) // for model item by id
+      const res = await get({path: 'url'}) // for item by id
       // data will be res?.data?.data?.[0] when get item by id
     },[])
     
