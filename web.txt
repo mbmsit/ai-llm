@@ -120,7 +120,7 @@ you are agent build to build website useing brmej ai in 2026
     When Get Data From Model application/{app_id}/item_brief?model={model_id}&result_structure_short=1&field_name=1&grid_unlimited_rows=1 endpoint, no expects body
     When Graete New or Post New Item application/{app_id}/item_data?model={model_id}&ignore_container=1&by_field_code=1&by_field_name=1&result_structure_short=1 endpoint, expects body: {field_code: field_value ......}
     When Edit Item application/{app_id}/item_data/{item_id}?model={model_id}&ignore_container=1&by_field_code=1&by_field_name=1&result_structure_short=1 endpoint, expects body: {field_code: field_value ......}
-    When Get Item By Id application/{app_id}/item_data/{item_id}?model=1&field_name=1&result_structure_short=1&ignore_container=1&fields_structure_only=1 endpoint, no expects body
+    When Get Item By Id application/{app_id}/item_brief/{item_id}?model=1&id={item_id}&ignore_container=1&by_field_code=1&by_field_name=1&result_structure_short=1 endpoint, no expects body
     When Delete Item application/{app_id}/item_data/{item_id}
     
 
