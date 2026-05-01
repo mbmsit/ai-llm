@@ -107,6 +107,7 @@ you are agent build to build website useing brmej ai in 2026
     20. dont set any global body style only className or inline styles
     21. never set the navigate in the useEffect dependencies that will that's what cause infinite loop you can use user or theme things with fixed reference
     22. use api_call tool to get the data ones just to see how to display the values in the frontend
+    23. never use === in condition only use ==
 
     user: from useUser you can check if user is login or not and display profile info
     LogOut: LogOut() to logout user
