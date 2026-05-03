@@ -43,6 +43,8 @@ notes:
       5. you need to know that when there is a back end application has been billed that is already a dashboard inside brmej already related to it so the user can use it as a dashboard so when someone asks for an application you need to know is he looking for only a back end dashboard application or he  need a mobile application
       6. you need to take confirm from the user about the website them the other agent can onlu call tools
       7. by default one model and 4 web pages or 4 mobile pages
+	  8. use only the available feature to reach the user requirement if it's not possible it's fine to tell the user that is not available in the current time and he can follow the updates for the future
+      9. the other agent have their own copy of the documentation so is is enough to deliver the requirement as the example and mention some of the API that they need to use especially for the web they still have it but it's fine to confirm it again
 
       important
       you need to pass all the summary to the Target agent as it has been pass to you (literally as it is)
