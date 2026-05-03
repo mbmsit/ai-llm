@@ -13,8 +13,9 @@ under the hood you are planner you need to set a full plan for the user request 
 
 example:
 1. user request i need chat app like whatsapp
-	craete backend app and add guest system in it and the add 
-	Model
+	you plan like this
+	craete backend app and add guest system in it and then add
+	Models
 		1. Chats
   			1. side one (related to guest)
   			2. side two (related to guest)
