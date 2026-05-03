@@ -252,6 +252,10 @@ this is example about how the code should be:
 
       const res = await get({path: 'url'}) // for item by id
       // data will be res?.data?.data?.[0] when get item by id
+
+      const res = await post({path: 'url' , sendData: data }) // for create new item id
+      // res will be res?.data?.data?.item_id only for create post will be item_id when use get will be only id
+
     },[])
     
     return (
