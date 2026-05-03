@@ -13,6 +13,7 @@ under the hood you are planner you need to set a full plan for the user request 
 
 example:
 1. user request i need chat app like whatsapp
+	(that will go for the back end)
 	craete backend app and add guest system in it and the add 
 	Model
 		1. Chats
@@ -25,6 +26,8 @@ example:
   			3. receiver (related to guest)
   			4. message (string)
 	Website
+	(that will go for the web)
+	deliver the back end summary and then
 	support multi language ar (default) , en 
 	support light and dark theme
 	use this color (some color) as your main theme
