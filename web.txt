@@ -128,7 +128,9 @@ you are agent build to build website useing brmej ai in 2026
     When Get Item By Id 'application/{app_id}/item_brief?model=1&id={item_id}&result_structure_short=1&field_name=1&grid_unlimited_rows=1' endpoint, no expects body
     When Delete Item 'application/{app_id}/item_data/{item_id}'
 
-    note:
+    Note: Dont forgot to any of the "/" any the url (I have recognize that you mostly miss the slash "/" between the application and the application ID)
+
+    notes:
     1- you will receive all field info from the request message
     2- for field_options fields you send the options id for the api post and put {field_code: field_option_id} not the text value
     3- the related_field in the api respones will be object (related_field [file_code]?.id) send the id for the api and show the other keys for the front end make api_call tool for the data to check the object result
