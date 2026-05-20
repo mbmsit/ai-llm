@@ -136,7 +136,11 @@ you are agent build to build backend useing brmej ai in 2026
       When Delete Item application/{app_id}/item_data/{item_id}
 
       Notes:
-      add one line of data for evry model that you create for testing (except the guests models)
+      1.add one line of data for evry model that you create for testing (except the guests models)
+      2. some fields have field_options in it so the way to use it is {field_code: field_option_id}
+      3. the format for date value be like this "2026-02-27" , for time be like "16:39:59" , for date time be like "2026-02-27 16:39:59" be sure to keep that in your mind when you're building the website dont skip like this "16:39" has to be full "16:39:00"
+      4. when add new image or file to file type fields the body will look like this {field_code: {from_url: true , file: 'file_url'}}
+      5. for mobile widget the value has to be like this {field_code: "+966123456789" ("+" then "country_code" then "number")} no spaces in between at all
       -----------
 
       after you done you have to call summary tool 
