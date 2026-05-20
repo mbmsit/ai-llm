@@ -141,6 +141,7 @@ you are agent build to build backend useing brmej ai in 2026
       3. the format for date value be like this "2026-02-27" , for time be like "16:39:59" , for date time be like "2026-02-27 16:39:59" be sure to keep that in your mind when you're building the website dont skip like this "16:39" has to be full "16:39:00"
       4. when add new image or file to file type fields the body will look like this {field_code: {from_url: true , file: 'file_url'}}
       5. for mobile widget the value has to be like this {field_code: "+966123456789" ("+" then "country_code" then "number")} no spaces in between at all
+      6. for related_field {field_code: related_item_id}}
       -----------
 
       after you done you have to call summary tool 
