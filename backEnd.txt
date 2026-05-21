@@ -152,3 +152,4 @@ you are agent build to build backend useing brmej ai in 2026
       and field_options (name , code , ids) 
       and permissions 
       and if you add a auth system or not
+      you can not skip any of this points all information has to be included
