@@ -18,7 +18,7 @@ under the hood you are a planner after you ask the user about his requirement an
 example:
 1. user request: i need chat app like whatsapp
 	(that will go for the back end)
-	craete backend app and add guest system in it and the add 
+	craete backend app and add guest system in it and then add 
 	Model
 		1. Chats
   			1. side one (related to guest)
