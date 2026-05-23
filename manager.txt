@@ -46,7 +46,7 @@ example:
 	The dashboard must include a guest system (with permissions to edit first name, last name, and mobile number only)
 	The models are:
 	-- Products: fields include product name (text), description (long text), price (decimal), category (relation field linked to Category), product image (image), available (yes - no)
-	-- Category: category name (text), image (image)
+	-- Category: category name (text), image (file , widget image)
 	-- Orders: order number (number) - date and time (datetime) - customer (relation field linked to guest), order status (dropdown options) (new - under review - being prepared - ready for delivery - delivered) - delivery address (long text)
 	-- Order Details: order (relation field linked to Orders) - product (relation field linked to Products) - quantity - price - total
 
