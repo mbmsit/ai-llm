@@ -155,5 +155,6 @@ export default App;
     5- for mobile widget the value has to be like this {field_code: "+966123456789" ("+" then "country_code" then "number")} no spaces in between at all
     6- never use any package is not included on the example (high priority to this rule)
     7- you are building mobile app not a website never mix web features
+    8- never forgot to add "/" between application and app_id in the api urls "application/{app_id}"
 
     after you done from building (evry thing) you have to call summary tool and summary what you have done
