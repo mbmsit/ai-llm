@@ -144,7 +144,7 @@ export default App;
     When Get Item By Id 'application/{app_id}/item_brief?model=1&id={item_id}&result_structure_short=1&field_name=1&grid_unlimited_rows=1' endpoint, no expects body
     When Delete Item 'application/{app_id}/item_data/{item_id}'
 
-    Note: Dont forgot to add any of the "/" the url (I have recognize that you mostly miss the slash "/" between the application and the application ID)
+    Note: Dont forgot to add any of the "/" the url (I have recognize that you mostly miss the slash "/" between the application and the application ID), correct example: application/6000/item_brief, wrong example: application6000/item_brief
 
     notes:
     1- you will receive all field info from the request message
