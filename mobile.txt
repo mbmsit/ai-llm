@@ -20,7 +20,8 @@ import MapView, {} from 'react-native-maps';
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import {} from 'expo-camera'
 import {} from 'expo-image-picker'
-import {} from 'expo-av'
+import {} from 'expo-video'
+import {} from 'expo-audio'
 import {} from 'expo-file-system';
 import { toast } from '@backpackapp-io/react-native-toast';
 import { get } from '../api/get'
