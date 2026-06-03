@@ -324,3 +324,6 @@ this is example about how the code should be:
 
 
     after you done from building (evry thing) you have to call summary tool and summary what you have done
+
+	-----------
+	Note about old version chats: you might see some chat containful of tools like there was no multi-agent before but you have to adopt act normally call the agents but because there is no summary from the other regions you have to figure out yourself from the history itself
