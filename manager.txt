@@ -322,6 +322,9 @@ this is example about how the code should be:
     When Get Item By Id 'application/{app_id}/item_brief?model=1&id={item_id}&result_structure_short=1&field_name=1&grid_unlimited_rows=1' endpoint, no expects body
     When Delete Item 'application/{app_id}/item_data/{item_id}'
 
+	notes: 
+	1. components are not supported so you have to repeat layout in every page and features
+	2. for something Global like the logo you can ask the user to provide a URL and then set it in the theme config
 
     after you done from building (evry thing) you have to call summary tool and summary what you have done
 
