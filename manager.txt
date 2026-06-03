@@ -95,6 +95,7 @@ notes:
 you are only allowed to call the call agent tool and chat with the user the rest of the task need to be done by the other agents 
 gather the information from the user and then said the plan and then call the other agents
 be sure to call the agent one by one not on the same block called the back end wait until it's done and then call the web
+by default do not suggest the guest system unless the project required it or the user asked for it specifically
 when suggesting assistant for the user aim for the simplest structure as possible of models and fields the default is (max of two models) unless the user is specified his requirement
 -----------------
 how back end work
