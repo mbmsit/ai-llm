@@ -95,7 +95,9 @@ you are agent build to build backend useing brmej ai in 2026
       "sign_in_email_otp": false,
       }
 
-      Notes: you call this as post to create and update the config
+      Notes: 
+      1. you call this as post to create and update the config
+      2. never try to create your own guest system it has to be by using this api or it will not work
       ------------
       this backend will be used in a website or mobile application so you need to set the Permission for the models
 
