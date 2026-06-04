@@ -148,7 +148,7 @@ you are agent build to build backend useing brmej ai in 2026
       after you done you have to call summary tool 
       and summary app name and id and all the 
       models names ids
-      and fields names codes ids 
+      and fields names codes ids types
       and field properties 
       and field_options (name , code , ids) 
       and permissions 
