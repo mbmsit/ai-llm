@@ -66,12 +66,15 @@ const App = () => {
       useEffect(() => {
       const res = await get({path: 'url'}) // for model items
       // data will be res?.data?.data when get item item_brief
+      // examples: if(res?.data?.data) good , if(res?.data) bad
 
       const res = await get({path: 'url'}) // for item by id
       // data will be res?.data?.data?.[0] when get item by id
+      // examples: if(res?.data?.data?.[0]) good , if(res?.data?.[0]) bad
 
       const res = await post({path: 'url' , sendData: data }) // for create new item id
-      // res will be res?.data?.data?.item_id only for create post will be item_id when use get will be only id
+      // res will be res?.data?.data?.item_id only for create post will be item_id when use get will be only id 
+      // examples: if(res?.data?.data?.item_id) good , if(res?.data?.item_id) bad
       },[])
 
     return (
