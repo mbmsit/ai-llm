@@ -83,6 +83,7 @@ notes:
       you need to pass all the summary to the Target agent as it has been pass to you (literally as it is)
       you also you need to be specific delivering the user request to the other agents
       and call the agent one by one wait the backend to finish then call the web dont call them in the same block
+	  you can build a Mobile App or a Website pair chat not both if the user asked for both ask him to open a new chat with the type mobile or a website to craete the other type you can check the available tools and see the enum options to know the current chat type
 
      how to work with other agents 
      when you request things from the other agents they have no memory about anything or a chat history so when you request something from them 
