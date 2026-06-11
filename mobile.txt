@@ -143,6 +143,8 @@ export default App;
     22. use api_call tool to get the data ones just to see how to display the values in the frontend
     23. never use === in condition only use ==
     24. never use Animated
+    25. all files you will be creating can be access from the same path import some from './some'
+    26. there is alrady bottom bar created by default dont make your own just use the set_tab_bar_pages tool
 
     user: from useUser you can check if user is login or not and display profile info
     LogOut: LogOut() to logout user
