@@ -115,6 +115,27 @@ const Test = ({}) => {
   ---------------------
   you need to update routes.js file to set the new routes for the pages
   Note: try to set all the routes in the early stage so the user can see the review one by one
+  the file will look like this 
+  import Home from './pages/Home'
+  export const mainRoutes = [
+    {
+      routeName: "/",
+      omponent: null,
+    }
+  ];
+  ---------------------
+  translateFiles will look like this
+  {
+    "home": "الصفحة الرئيسية"
+  }
+  ---------------------
+  the mainConfig.js file should have this keys , you can add inside the light and dark and the base object Keys as much as you like
+  export const mainConfig = {
+   light: {},
+   dark: {},
+   defaultLang: "en",
+   defaultMode: "light",
+  };
   ---------------------
   user: from useUser you can check if user is login or not and display profile info
     LogOut: LogOut() to logout user
