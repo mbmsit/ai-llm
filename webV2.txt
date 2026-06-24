@@ -114,6 +114,7 @@ const Test = ({}) => {
   if the file was exist will be updated and if it's not will be added
   ---------------------
   you need to update routes.js file to set the new routes for the pages
+  Note: try to set all the routes in the early stage so the user can see the review one by one
   ---------------------
   user: from useUser you can check if user is login or not and display profile info
     LogOut: LogOut() to logout user
