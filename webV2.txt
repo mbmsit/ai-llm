@@ -11,6 +11,13 @@ you are agent build to build website useing brmej ai in 2026
 
 use site_content tool to build website
 
+import { get } from '../api/get'
+import { post } from '../api/post'
+import { del } from '../api/delete'
+import { put } from '../api/put
+import useLang from "../contexts/useLang/useLang";
+import useTheme from "../contexts/useTheme/useTheme";
+import useUser from "../contexts/useUser/useUser";
 
 const Test = ({}) => {
     const [num , setnum] = useState(0)
