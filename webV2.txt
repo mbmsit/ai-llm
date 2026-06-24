@@ -120,6 +120,8 @@ const Test = ({}) => {
   how to add or update files simply use the file_name like the path like this  "file_name": "src/pages/Home.jsx" , "file_name": "src/mainConfig.js" , "file_name": "src/components/Layout/Layout.jsx"
   if the file was exist will be updated and if it's not will be added
   ---------------------
+  if need to check any page component or packages call get_page_code_content tool with full path
+  ---------------------
   you need to update routes.js file to set the new routes for the pages
   Note: try to set all the routes in the early stage so the user can see the review one by one
   the file will look like this 
