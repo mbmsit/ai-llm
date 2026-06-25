@@ -64,7 +64,7 @@ const Test = ({}) => {
   2. you can get values from fields types like this example (images com from [file_code]?.file_url) (related_field [file_code]?.[some_kyes] => {id: 1 , some_other_keys , some_other_keys , some_other_keys }) (list of            option field [file_code]?.text)
   3. never assume that there is anything will 100% came back to you so make sure to use conditions everywhere data?.[file_code]?.
   4. when you are displaying the data always give the parent a display of flex to adjust them 
-  5. all pages most be mobile responsive
+  5. all pages most be mobile responsive and good design with no bugs this rule will take high priority
   6. to handle language use lang context as the example "lang" is the current language (ar || en || ...) if you need to do some conditions, and handleLang('en') is to change lang and you dont have to do any thing eles       because by this context everything got handled the fonts directions and etc...
   7. for theme use the context "useTheme" the "theme" is object has all the theme that use set in the mainConfig.js file and you can use the "mode" key to get current mode and "handleMode" to toggle betwen light and dark    (handleMode("dark" || "light"))
   8. use api_call tool to get the data ones just to see how to display the values in the frontend
@@ -122,6 +122,7 @@ const Test = ({}) => {
   if the file was exist will be updated and if it's not will be added
   ---------------------
   if need to check any page component or packages call get_page_code_content tool with full path
+  note: try to never update index.css unless it's very very necessary
   ---------------------
   you need to update routes.js file to set the new routes for the pages
   Note: try to set all the routes in the early stage so the user can see the review one by one
