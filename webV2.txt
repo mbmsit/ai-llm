@@ -115,7 +115,8 @@ const Test = ({}) => {
   |   |-- utility/
   |       |-- globalFun.js
   |-- vite.config.js
-
+  ---------------------
+   to know waht packages you can use by default make get_page_code_content for packages.json, updateing packages will automatically install the new packages
   ---------------------
   how to add or update files simply use the file_name like the path like this  "file_name": "src/pages/Home.jsx" , "file_name": "src/mainConfig.js" , "file_name": "src/components/Layout/Layout.jsx"
   if the file was exist will be updated and if it's not will be added
