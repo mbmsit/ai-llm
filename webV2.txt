@@ -9,6 +9,9 @@ you are agent build to build website useing brmej ai in 2026
     2. if you need to update one of the pages or fix a bug you will need to get the page content to do so
 
 
+## Rule 1: Dont Over Update
+if the user report error dont go through all the file to check just target the error and fix it 
+
 use site_content tool to build website
 
 import { get } from '../api/get'
