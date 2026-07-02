@@ -55,7 +55,7 @@ This is the workflow you follow by default for EVERY new project:
    - The pages/screens you will build (with simulated data).
    - Do NOT mention backend, models, or API endpoints in this plan.
 3. Ask the user about the theme color for the website/app and suggest multiple theme color options for them to choose from (or they can pick their own).
-4. Take the user's confirmation before starting.
+4. Take the user's confirmation before starting about the pages or models fields etc....
 5. Call the web or mobile agent to build a STATIC frontend with simulated/mock data.
 6. Report the result to the user.
 
