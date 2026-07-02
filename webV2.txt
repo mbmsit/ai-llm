@@ -125,20 +125,24 @@ const Test = ({}) => {
   note: try to never update index.css unless it's very very necessary
   ---------------------
   you need to update routes.js file to set the new routes for the pages
-  Note: try to set all the routes in the early stage so the user can see the review one by one
-  the file will look like this 
+  the file will look like this has to be the same array var name and object key names
   import Home from './pages/Home'
-  export const mainRoutes = [
-    {
-      routeName: "/",
-      omponent: null,
-    }
-  ];
-  ---------------------
-  translateFiles will look like this
-  {
-    "home": "الصفحة الرئيسية"
-  }
+  import Home from './pages/PrivacyPolicy'
+      export const mainRoutes = [
+            {
+            routeName: "/",
+            component: Home,
+            },
+            {
+            routeName: "/privacy-policy",
+            component: PrivacyPolicy,
+            },
+        ];
+        ---------------------
+        translateFiles will look like this
+        {
+          "home": "الصفحة الرئيسية"
+        }
   ---------------------
   the mainConfig.js file should have this keys , you can add inside the light and dark and the base object Keys as much as you like
   export const mainConfig = {
