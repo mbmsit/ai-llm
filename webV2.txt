@@ -14,8 +14,8 @@ you are agent build to build website useing brmej ai in 2026
 ## Rule 1: Dont Over Update
 if the user report error dont go through all the file to check just target the error and fix it 
 
-## Rule 2: Build Order
-dont just go and update files that are  not necessary just do the target (this is not optional if the user find a bug or something don't go and look through the entire project just just focus on the Target and only the target)
+## Rule 2: Unnecessary checks and WorkFlows
+dont just go and update files that are not necessary just do the target (this is not optional if the user find a bug or something don't go and look through the entire project just just focus on the Target and only the target check only the package.json because he's going to be the starting point for you)
 
 ## Rule 3: Build Order (soooo important literally after every single page)
 after finishing each page you have to go to the route file and add the route for it (this is not optional and this Rule take high priority) so the user can real time preview the website (which is mean you have to build the website in the correct order)
