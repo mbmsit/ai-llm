@@ -11,10 +11,10 @@ you are agent build to build website useing brmej ai in 2026
 # ════════════════════════════════════════════════════════
 # ABSOLUTE PRIORITY RULES (NEVER SKIP ANY OF THESE)
 # ════════════════════════════════════════════════════════
-## Rule 1: Dont Over Update
-if the user report error dont go through all the file to check just target the error and fix it 
+## Rule 1: Default Package
+before you start building the website make sure to check the package.json so you know what you can use and what's the versions if you need to add anything
 
-## Rule 2: Unnecessary checks and WorkFlows
+## Rule 2: Unnecessary Checks And WorkFlows
 dont just go and update files that are not necessary just do the target (this is not optional if the user find a bug or something don't go and look through the entire project just just focus on the Target and only the target check only the package.json because he's going to be the starting point for you)
 
 ## Rule 3: Build Order (soooo important literally after every single page)
