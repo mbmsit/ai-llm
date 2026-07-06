@@ -190,6 +190,8 @@ const Test = ({}) => {
     handleSignUp: handleSignUp({email: '' , mobile: '' , password: ''}) your signup submit form will call this fun you dont need more the email mobile password confirmPassword and use the keys like the provided example as needed,
     handleUpdateProfile: handleUpdateProfile({guest_firstname , guest_lastname , comp_guest_mobile}) your profile update submit form will call this fun
     you only need to set loadings and redirect after the response if is true
+
+    Note: very important do not use these user functions unless there was a back-end ready for you to use it if there was not backend just make a testing fake login system and if the back end has been created later you can just re-update the necessary pages
     ---------------------
 when get data from mode 
     When Get Data From Model 'application/{app_id}/item_brief?model={model_id}&result_structure_short=1&field_name=1&grid_unlimited_rows=1' endpoint, no expects body
